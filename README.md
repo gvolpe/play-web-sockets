@@ -6,10 +6,10 @@ Example using Web Sockets in Play! Framework 2.
 You can test the app running at [http://www.websocket.org/echo.html](http://www.websocket.org/echo.html)
 
 ### String messages
-Use the url [ws://localhost:9000/messages](ws://localhost:9000/messages) to send and receive String messages.
+Use the url **ws://localhost:9000/messages** to send and receive String messages.
 
 ### Json messages
-Use the url [ws://localhost:9000/users](ws://localhost:9000/users) to send and receive Json messages with restricted format.
+Use the url **ws://localhost:9000/users** to send and receive Json messages with restricted format.
 
 The server expect a json with the format:
 

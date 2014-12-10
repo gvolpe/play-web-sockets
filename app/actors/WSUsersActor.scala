@@ -1,6 +1,6 @@
 package actors
 
-import Model.WSModel.{ProcessedUser, User}
+import model.WSModel.{ProcessedUser, User}
 import akka.actor.{ActorRef, Props, Actor}
 
 import scala.util.Random

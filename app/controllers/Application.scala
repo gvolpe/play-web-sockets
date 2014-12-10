@@ -1,13 +1,13 @@
 package controllers
 
-import Model.WSModel.{ProcessedUser, User}
+import model.WSModel.{ProcessedUser, User}
 import actors.{WSUsersActor, WSMessagesActor}
 import play.api.mvc._
 import play.api.Play.current
 
 object Application extends Controller {
 
-  import Model.WSModel.Implicits._
+  import model.WSModel.Implicits._
 
   def index = Action {
     Ok(views.html.index("Your new application is ready."))
